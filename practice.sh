@@ -8,7 +8,7 @@
 #readonly name
 #name="sivalingam the great"
 #echo " $name "
-a=10
-if [ $a -eq 10 ]; then
+a="siva"
+if [ "$a" == "siva" ]; then
   echo "this is the true"
 fi
