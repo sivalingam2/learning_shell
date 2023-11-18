@@ -9,6 +9,8 @@
 #name="sivalingam the great"
 #echo " $name "
 a="siva"
-if [ "$a" == "siva" ]; then
+if [ "$a" == "siv" ]; then
   echo "this is the true"
+  else
+    echo "this is the false"
 fi
