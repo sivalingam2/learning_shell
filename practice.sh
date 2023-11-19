@@ -14,14 +14,17 @@
 #  else
 #    echo "this is the false"
 #fi
-USERID=(id -u)
-if [ ${USERID} -ne 0 ]; then
-  echo "need to be root user"
-fi
-yum install git -y
-
-if [ $? -ne 0 ]; then
-  echo " git install failure"
-else
-  echo "git install success"
-fi
+#USERID=(id -u)
+#if [ ${USERID} -ne 0 ]; then
+#  echo "need to be root user"
+#fi
+#yum install git -y
+#
+#if [ $? -ne 0 ]; then
+#  echo " git install failure"
+#else
+#  echo "git install success"
+#fi
+  hello () {
+    ech "hello world"
+  }
