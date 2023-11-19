@@ -26,10 +26,10 @@
 #  echo "git install success"
 #fi
   hello () {
-    echo "hello2 world"
+    echo "hello2 world $1 $2"
     echo "what is this file name: $0 "
     echo "arguments name: $1 "
     echo "no.of arguments: $# "
     echo "all arguments are: $* "
   }
-  hello
+  hello $1 $2
