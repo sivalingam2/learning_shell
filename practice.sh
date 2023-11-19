@@ -33,3 +33,5 @@
     echo "all arguments are: $* "
   }
   hello $1 $2
+    echo "no.of arguments: $# "
+      echo "all arguments are: $* "
