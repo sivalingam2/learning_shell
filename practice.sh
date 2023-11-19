@@ -28,3 +28,4 @@
   hello () {
     ech "hello world"
   }
+  hello
