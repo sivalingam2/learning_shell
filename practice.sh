@@ -36,5 +36,10 @@
 #    echo "no.of arguments: $# "
 #      echo "all arguments are: $* "
 
-RED="\e[31m"
-echo  -e " ${RED} sivalingam"
+#RED="\e[31m"
+#echo  -e " ${RED} sivalingam"
+ DATE=$(date)
+ echo " today date is: ${DATE}"
+ # if you want change update numerical substitution then use below command
+ maths=$(( 2 + 2))
+  echo " adding of the two numbers is: ${maths}"
