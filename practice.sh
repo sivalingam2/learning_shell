@@ -27,9 +27,9 @@
 #fi
   hello () {
     echo "hello2 world"
-    echo "what is this file name: $0"
-    echo "arguments name: $1"
-    echo "no.of arguments: $#"
-    echo "no.of arguments: $*"
+    echo "what is this file name: $0 "
+    echo "arguments name: $1 "
+    echo "no.of arguments: $# "
+    echo "all arguments are: $* "
   }
   hello
