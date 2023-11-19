@@ -14,7 +14,7 @@
 #  else
 #    echo "this is the false"
 #fi
-#USERID=(id -u)
+#USERID=$(id -u)
 #if [ ${USERID} -ne 0 ]; then
 #  echo "need to be root user"
 #fi
@@ -25,13 +25,16 @@
 #else
 #  echo "git install success"
 #fi
-  hello () {
-    echo "hello2 world $1 $2"
-    echo "what is this file name: $0 "
-    echo "arguments name: $1 "
-    echo "no.of arguments: $# "
-    echo "all arguments are: $* "
-  }
-  hello $1 $2
-    echo "no.of arguments: $# "
-      echo "all arguments are: $* "
+#  hello () {
+#    echo "hello2 world $1 $2"
+#    echo "what is this file name: $0 "
+#    echo "arguments name: $1 "
+#    echo "no.of arguments: $# "
+#    echo "all arguments are: $* "
+#  }
+#  hello $1 $2
+#    echo "no.of arguments: $# "
+#      echo "all arguments are: $* "
+
+RED="\e[31m"
+echo " ${RED} sivalingam"
