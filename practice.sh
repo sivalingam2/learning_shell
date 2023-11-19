@@ -15,7 +15,7 @@
 #    echo "this is the false"
 #fi
 USERID=(id -u)
-if [ $USERID -ne 0 ]; then
+if [ ${USERID} -ne 0 ]; then
   echo "need to be root user"
 fi
 yum install git -y
