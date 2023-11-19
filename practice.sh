@@ -37,4 +37,4 @@
 #      echo "all arguments are: $* "
 
 RED="\e[31m"
-echo " ${RED} sivalingam"
+echo  -e " ${RED} sivalingam"
