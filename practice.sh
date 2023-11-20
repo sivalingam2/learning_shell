@@ -57,7 +57,6 @@
  do
    if [ "${x}" == "siva" ]; then
      echo "this the true"
-  else
-    echo "this is the false"
+     exit 1
   fi
  done
