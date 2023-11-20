@@ -40,7 +40,7 @@
 #echo  -e " ${RED} sivalingam"
 # DATE=$(date)
 # echo " today date is: ${DATE}"
-DATE=$(date +%f)
+DATE=$(date +%F)
 echo "today date is: ${DATE}"
 
 
