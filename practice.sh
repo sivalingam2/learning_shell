@@ -11,8 +11,8 @@
 #a="siva"
 #if [ ""${a} == "siv" ]; then
 #  echo "this is the true"
-#  else
-#    echo "this is the false"
+#else
+#   echo "this is the false"
 #fi
 #USERID=$(id -u)
 #if [ ${USERID} -ne 0 ]; then
@@ -42,14 +42,18 @@
 # echo " today date is: ${DATE}"
 #DATE=$(date +%F)
 #echo "today date is: ${DATE}"
-echo  "what is the your username?"
-read -s  username
-echo  "my username is $username"
-echo  "what is the your password?"
-read -s  password
-echo  "my password is $password"
+#echo  "what is the your username?"
+#read -s  username
+#echo  "my username is $username"
+#echo  "what is the your password?"
+#read -s  password
+#echo  "my password is $password"
 
 
  # if you want change update numerical substitution then use below command
 # maths=$(( 2 + 2))
 #  echo " adding of the two numbers is: ${maths}"
+ for x in siva linagm ganganaboyina
+ do
+   echo "${x}"
+ done
