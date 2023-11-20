@@ -45,6 +45,9 @@
 echo  "what is the your username?"
 read -s  username
 echo  "my username is $username"
+echo  "what is the your password?"
+read -s  password
+echo  "my username is $password"
 
 
  # if you want change update numerical substitution then use below command
