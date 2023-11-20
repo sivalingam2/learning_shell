@@ -55,5 +55,9 @@
 #  echo " adding of the two numbers is: ${maths}"
  for x in siva linagm ganganaboyina
  do
-   echo "${x}"
+   if [ "${x}" == "siva" ]; then
+     echo "this the true"
+  else
+    echo "this is the false"
+  fi
  done
