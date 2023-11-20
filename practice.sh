@@ -40,8 +40,11 @@
 #echo  -e " ${RED} sivalingam"
 # DATE=$(date)
 # echo " today date is: ${DATE}"
-DATE=$(date +%F)
-echo "today date is: ${DATE}"
+#DATE=$(date +%F)
+#echo "today date is: ${DATE}"
+echo -n "what is the your username?"
+read username
+echo -s "my username is $username"
 
 
  # if you want change update numerical substitution then use below command
