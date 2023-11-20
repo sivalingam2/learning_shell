@@ -43,8 +43,8 @@
 #DATE=$(date +%F)
 #echo "today date is: ${DATE}"
 echo -n "what is the your username?"
-read username
-echo -s "my username is $username"
+read -s  username
+echo  "my username is $username"
 
 
  # if you want change update numerical substitution then use below command
