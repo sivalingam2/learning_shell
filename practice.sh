@@ -53,4 +53,3 @@
  # if you want change update numerical substitution then use below command
 # maths=$(( 2 + 2))
 #  echo " adding of the two numbers is: ${maths}
-sed '1 s/root/rooting/' "root passwoeding"
