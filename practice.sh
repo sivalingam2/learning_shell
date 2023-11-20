@@ -42,7 +42,7 @@
 # echo " today date is: ${DATE}"
 #DATE=$(date +%F)
 #echo "today date is: ${DATE}"
-echo -n "what is the your username?"
+echo  "what is the your username?"
 read -s  username
 echo  "my username is $username"
 
