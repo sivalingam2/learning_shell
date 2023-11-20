@@ -52,11 +52,5 @@
 
  # if you want change update numerical substitution then use below command
 # maths=$(( 2 + 2))
-#  echo " adding of the two numbers is: ${maths}"
- for x in siva linagm ganganaboyina
- do
-   if [ "${x}" == "siva" ]; then
-     echo "this the true"
-     exit 1
-  fi
- done
+#  echo " adding of the two numbers is: ${maths}
+sed '1 s/root/rooting/' /tmp/passwd
