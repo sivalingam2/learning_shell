@@ -1,0 +1,17 @@
+- name: conditions in ansible
+  hosts: all
+  become: true
+  connection: local
+  vars:
+    role: true
+    designation: true
+  tasks:
+    - name: prints conditions
+      ansible.builtin.debug:
+        msg: role is - devops engineer
+      when: role is defined
+
+    - name: prints conditions
+      ansible.builtin.debug:
+        msg: role is - devops engineer
+      when: designation is defined
